@@ -1,0 +1,19 @@
+# Lingkungan virtual Python & Cache
+gost_env/
+__pycache__/
+*.py[cod]
+
+# File Binary GOST (biar installer yang download di server)
+gost
+gost-linux-*
+
+# Database & Konfigurasi Lokal (Jangan di-push!)
+*.json
+*.conf
+*.log
+binds_*.txt
+pool_*.txt
+
+# File temporary macOS/Linux
+.DS_Store
+*~
